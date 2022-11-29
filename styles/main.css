@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1464925257126-6450e871c667?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80');
+    background-size: cover;
+    margin-top: -10px;
+    margin-bottom: -0px;
+    padding: 10px;
+    width: cover;
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+    border-bottom: 10px solid rgb(232, 201, 46);
+}
+
+.fish__card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.fish__image {
+    border: 3px solid rgb(99, 138, 227);
+  border-radius: 4px;
+  padding: 5px;
+  width: 60vw;
+  height: 100%;
+  margin-top: 80px;
+}
+
+.fish__name {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.fish__species {
+    font-size: 40px;
+}
+
+.fish__length {
+    font-size: 35px;
+}
+
+.fish__location {
+    font-size: 30px;
+}
+
+.fish__diet {
+    font-size: 25px;
+    margin-bottom: 80px;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-bottom: 10px solid rgb(61, 97, 228);
+}
+
+aside {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 30vw;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-bottom: 10px solid rgb(232, 201, 46);
+    background-color: rgba(250, 235, 215, 0);
+    margin-top: 18%;
+}
+/* 
+.mainRight {
+    z-index: 1;
+}
+
+.mainLeft {
+    z-index: 2;
+} */
+
+.mainmain {
+    display: flex;
+    flex-direction: row;
+    background-image: url('https://images.unsplash.com/photo-1615800098799-0ccb261b1f92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80');
+    background-size:contain;
+     
+
+}
+
+.sider {
+    position: fixed;
+}
